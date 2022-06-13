@@ -1,0 +1,51 @@
+﻿<Page x:Class="Veterinarka.Pages.AuthPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Veterinarka.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="AuthPage">
+
+    <Grid Background="#Ffff">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Авторизация"
+               FontSize="40"
+               HorizontalAlignment="Center"/>
+
+        <Label Content="Логин"
+               Grid.Row="2"
+               FontSize="40"
+               Margin="100,0,0,0"/>
+
+        <TextBox Grid.Row="3"
+                 Margin="100,15,500,15"
+                 x:Name="loginBox"/>
+
+        <Label Content="Пароль"
+               Grid.Row="4"
+               FontSize="40"
+               Margin="100,0,0,0"/>
+
+        <PasswordBox Grid.Row="5"
+                     x:Name="passBox"
+                     Margin="100,15,500,15"/>
+
+        <Button Content="Войти"
+                FontSize="40"
+                Click="EnterToAccount"
+                Grid.Row="6"
+                Margin="288,0,288,0"/>
+    </Grid>
+</Page>

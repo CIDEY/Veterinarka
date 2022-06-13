@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b626db90b3e642feb154027f1626cff4" Name="Diagram1">
+        <EntityTypeShape EntityType="VeterinarkaModel.Account" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinarkaModel.Animal" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinarkaModel.Doctor" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinarkaModel.Owner" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinarkaModel.Service" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinarkaModel.TypeAnimal" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinarkaModel.Vaccination" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="VeterinarkaModel.FK_Animal_Owner" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinarkaModel.FK_Animal_TypeAnimal" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinarkaModel.FK_Owner_Animal" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinarkaModel.FK_Services_Animal" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinarkaModel.FK_Services_Doctor" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinarkaModel.FK_Services_Owner" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinarkaModel.FK_Services_Vaccination" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

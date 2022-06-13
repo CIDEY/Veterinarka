@@ -1,0 +1,64 @@
+﻿<Window x:Class="Veterinarka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Veterinarka"
+        mc:Ignorable="d"
+        Title="AnimalsDoc" 
+        Height="720" 
+        Width="1280">
+
+    <Grid>
+
+        <Frame NavigationUIVisibility="Hidden"
+           x:Name="mainFraim"/>
+        <!--<Grid.RowDefinitions>
+
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+        
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="2"
+                    Height="70"
+                    Width="80"
+                    Background="#fff"
+                    x:Name="asd">
+                <Image Source="Images\service.png"/>
+            </Button>
+
+            <Button Grid.Column="3"
+                    Height="70"
+                    Background="#fff"
+                    Width="80"
+                    x:Name="fds">
+                <Image Source="Images/doc.png" Height="46" Width="46"/>
+            </Button>
+            
+            <Button Grid.Column="4"
+                    Height="70"
+                    Background="#fff"
+                    Width="80"
+                    x:Name="fgd">
+                <Image Source="Images\animal.png"/>
+            </Button>
+        </Grid>-->
+    </Grid>
+</Window>
